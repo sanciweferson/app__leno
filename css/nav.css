@@ -57,7 +57,7 @@
 color: var(--primary);
 }
 .nav__container{
-  padding:1.5rem 12px;
+  padding:2rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -148,4 +148,7 @@ gap: var(--spacing-lg);
   display: inline-block;
   width: 100px; /* ajuste conforme necessário */
 }
+}
+main{
+  padding: 0rem;
 }

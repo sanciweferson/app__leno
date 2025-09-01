@@ -1,4 +1,5 @@
 .container {
+
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -11,7 +12,7 @@
 main{
   max-width: 1080px;
   margin: 0 auto;
-  padding: 4rem 0rem;
+  padding: 4rem 1rem;
 }
 
 footer {
@@ -103,13 +104,21 @@ footer {
   .footer__list {
     flex-direction: column;
     align-items: center;
-    gap: 14px;
+text-align: center;
+max-width: 100%;
+    justify-content: center;
+ 
+    align-items: center;
   }
 
 .footer__list li a span {
   display: inline-block;
-  width: 100px;
+  width: 200px;
   text-align: left;
+}
+main{
+
+  padding: 0rem 1rem;
 }
 
 }
